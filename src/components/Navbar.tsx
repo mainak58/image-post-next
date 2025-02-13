@@ -11,7 +11,7 @@ export default function Navbar() {
         <nav className="flex justify-between items-center bg-gradient-to-r from-indigo-800 via-purple-800 to-pink-700 px-10 py-6 shadow-2xl sticky top-0 z-50 backdrop-blur-sm bg-opacity-95">
             <div>
                 <p className="text-white font-bold text-3xl hover:text-pink-200 transform hover:scale-105 transition-all duration-300 cursor-pointer">
-                    Hello World
+                    Imagepost
                 </p>
             </div>
 
@@ -45,7 +45,7 @@ export default function Navbar() {
                 </SignedIn>
 
                 <div className="text-white font-bold text-xl tracking-wide">
-                    {user ? user.firstName : "Please sign in"}
+                    {user ? user.firstName : "Sign in to post"}
                 </div>
             </div>
         </nav>
